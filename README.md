@@ -14,7 +14,7 @@
   - If the sudoku puzzle is solved return true. If not, it resets the current cell (row,column) to it's original value.
   - This operation is performed recursively until all the cells are filled.
 
-[[https://github.com/dcodesmith/sudoku/blob/master/sudoku.png|alt=sudoku]]
+![Solved Sudoku](https://github.com/dcodesmith/sudoku/blob/master/sudoku.png)
 
 
 #### Possible Improvements
