@@ -1,4 +1,3 @@
-const chalk = require('chalk');
 const prettify = require('./prettify');
 const { foundInRow, foundInColumn, foundInBox } = require('./helpers');
 
@@ -50,8 +49,8 @@ class SudokuSolver {
 
     for (let number = 1; number <= 9; number++) {
       if (this.isNumberAssignable(row, column, number)) {
-        this.board[row][column] = chalk.green.bold(number);
-  
+        this.board[row][column] = number;
+
         if (this.isSolved()) {
           return true;
         }
